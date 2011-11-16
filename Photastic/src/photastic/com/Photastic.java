@@ -71,9 +71,6 @@ public class Photastic extends Activity {
     }
     public void register(View view)
     {
-        setContentView(R.layout.register);
-
-    	Toast.makeText(con, "In register!", Toast.LENGTH_LONG).show();
     	String response = null,
     			username = null,
     			email = null,
