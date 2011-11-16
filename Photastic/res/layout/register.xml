@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dp"
+    >
+	<TextView
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:text="Username"
+		android:id="@+id/testing"></TextView>
+	<EditText android:id="@+id/username" android:layout_gravity="center" android:layout_height="34dp" android:layout_width="match_parent">
+	</EditText>
+	<TextView android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:text="Email"></TextView>
+	<EditText android:id="@+id/email" android:layout_gravity="center" android:layout_height="34dp" android:layout_width="match_parent"></EditText>
+	<TextView android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:text="Password:"></TextView>
+	<EditText android:password="true" android:id="@+id/password" android:layout_gravity="center" android:layout_height="34dp" android:layout_width="match_parent"></EditText>
+	<TextView android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:text="Retype password"></TextView>
+	<EditText android:password="true" android:id="@+id/repassword" android:layout_gravity="center" android:layout_height="34dp" android:layout_width="match_parent"></EditText>
+	<LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+		android:paddingTop="10dp"
+		>
+		<Button
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Register"
+		android:layout_width="match_parent"
+		android:onClick="register"></Button>
+	</LinearLayout>
+	
+</LinearLayout>
